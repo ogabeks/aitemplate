@@ -191,3 +191,207 @@
     align-items: center;
 }
 
+
+.login {
+    min-height: 100vh;
+}
+
+.form label {
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.form{
+    position: relative;
+    max-width: 450px;
+    min-width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5vh;
+    padding: 20px;
+}
+
+.form-label{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+
+.my-navbar a {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    margin: 0px 15px;
+    display: inline-block;
+}
+
+.my-navbar a:hover{
+    color: white;
+}
+
+.my-navbar {
+    width: 100%;
+    padding: 0px 30px;
+    font-weight: 300;
+    background-color: #ffffff70;
+}
+
+.logo {
+    font-weight: 600;
+    color: white;
+}
+
+.log-menu a{
+   border: 1px solid white;
+   color: white;
+   padding: 5px 15px; 
+   font-size: 13px;
+   font-weight: 300;
+   transition: background 0.3s;
+}
+
+.log-menu a:hover{
+    background-color: white;
+    color: #333;
+}
+
+
+.main {
+    background-color: #ffffff7b;
+    margin-top: 5vh;
+}
+
+.main img{
+    max-width: 34vh;
+    filter: contrast(100) grayscale(100);
+}
+
+.main-info {
+    max-width: 50%;
+}
+
+
+.mini-text {
+    padding: 3px;
+    color: #222;
+    font-size: 18px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.main-text{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px 0px;
+}
+
+.sub-text{
+    font-size: 13px;
+    color: white;
+    font-weight: 300;
+    padding: 20px 0px;
+}
+
+.explore {
+    border: none;
+    background-color: white;
+    margin-right: 15px;
+    font-size: 13px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sign-in {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+    font-size: 13px;
+    padding: 10px 20px;
+    transform: background 0.3s;
+}
+
+.sign-in:hover{
+    background-color: white;
+    color: #444;
+
+}
+
+
+@media screen and (max-width : 578px){
+    .main{
+        flex-direction: column-reverse;
+    }
+    .main-info{max-width: 100%;}
+    .menus a:not(:first-child){
+        display: none;
+    }
+}
+
+
+.box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box i {
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+
+.col-label{
+    font-weight: 600;
+    font-size: 19px;
+    color: white;
+}
+
+.col-text{
+    font-size: 13px;
+    color: rgb(201, 201, 201);
+}
+
+.main-label {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.form-input{
+    width: 100%;
+}
+
+.form-input label{
+    font-size: 14px;
+    color: white;
+    display: block;
+    margin-top: 15px;
+}
+
+.form-input input, .form-input textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 5px;
+    margin-top: 3px;
+    border: none;
+    outline: none;
+}
+
+.form-input textarea{
+    height: 15vh;
+}
+
+.form-btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}

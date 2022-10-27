@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Side() {
   return (
     <div className="sidebar-content">
-      <div className="sidebar-logo">CH</div>
+      <div className="sidebar-logo">AIT</div>
       <div className="sidebar-menu">
         <Link to="/" className="sidebar-menu-item">
           <div className="badges bg-primary text-white">!</div>
@@ -26,6 +26,13 @@ function Side() {
           <div className="menu-item">
             <i className="fa fa-cog"></i>
             <div>Settings</div>
+          </div>
+        </Link>
+
+        <Link to="/login" className="sidebar-menu-item">
+          <div className="menu-item">
+            <i className="fa fa-sign-out"></i>
+            <div>Log out</div>
           </div>
         </Link>
       </div>
